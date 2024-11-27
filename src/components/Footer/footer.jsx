@@ -1,5 +1,5 @@
 import face from '../../assets/img/face.png'
-
+import twitter from'../../assets/img/twitter.png'
 import insta from '../../assets/img/insta.png'
 import linkedin from '../../assets/img/linkedin.png'
 import youtube from '../../assets/img/youtube.png'
@@ -13,7 +13,7 @@ return(
         <h3>4002-8922</h3>
         <nav>
             <a href=""><img src={face} alt="logo do facebook" /></a>
-            
+            <a href=""><img src={twitter} alt="logo do twitter" /></a>
             <a href=""><img src={youtube} alt="logo do youtube" /></a>
             <a href=""><img src={linkedin} alt="logo do linkedin" /></a>
             <a href=""><img src={insta} alt="logo do instagram" /></a>
