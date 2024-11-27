@@ -1,8 +1,8 @@
 
 //sem class tem que botar aqui dentro ex section 
 header{
-    border: solid 2px red;
-    height: 15vw;
+   // border: solid 2px red;
+    height: 6vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,7 +10,7 @@ header{
 }
 
 .boxLogo{
-border: solid 2px yellow;
+//border: solid 2px yellow;
 width: 23vw;
 display: flex;
 align-items: center;
@@ -21,7 +21,7 @@ h1{
 }
 }
 .boxMenu{
-border: solid 2px greenyellow;
+//border: solid 2px greenyellow;
 width: 35vw;
 ul{
     display: flex;
@@ -33,7 +33,7 @@ ul{
 }
 }
 .boxInput{
-    border: solid 2px white;
+     border: solid 2px white;
     width: 17vw;
     margin-right: 20px;
     height: 6vh;
