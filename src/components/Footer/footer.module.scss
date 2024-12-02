@@ -34,5 +34,27 @@ footer{
 
 }
 
+@media(max-width: 1050px){
+    .boxSocial{
+        nav{
+           // border: solid 2px red;
+            width: 220px;
+
+        }
+    }
+}
+
+@media(max-width: 479px){
+    .boxSocial{
+        flex-direction: column; //para deixar em coluna
+        justify-content: space-evenly;
+        }
+        .boxEnd{
+            p{
+                text-align: center;
+            }
+        }
+}
+
 
 

@@ -2,7 +2,8 @@
 .post{
     background-image: url("../../assets/img/banner.png");
     background-repeat: no-repeat; //para a imagem nao ficar repetindo
-    background-size: contain; // ajusta a imagem para nao cortar como o cover ajusta com o centro da foto
+    background-size: cover; // ajusta a imagem para nao cortar como o cover ajusta com o centro da foto
+    background-position: center;
     height:85vh; // mudar a altura
     display: flex;
     align-items: center;
@@ -58,11 +59,70 @@ article{
 
      p{
         text-align: center;
-        font-size: 20px;
+        font-size: 1.2vw;
 
         }
     }
 
 }
 
+@media(max-width: 780px){
+    .post{
+        justify-content: center;
+        h2{
+           // border: solid 2px red;
+            width: 88%;
+            margin-left: 0; //zerar o paddin colocado no h2
+            text-align: center;//centralizar o texto
+
+        }
+    }
+
+}
+
+@media(max-width: 1000px){
+    .boxCard{
+    article{
+        p{
+            font-size: 1.8vw;
+        }
+    }
+ }
+}
+
+@media(max-width: 780px){
+.devoDoar{
+    //border: solid 2px green;
+    height: 120vh;
+
+    div{
+       // border: solid 2px red;
+        justify-content: center;
+         h2{
+            margin-left: 0;
+            }
+        }
+    }
+
+.boxCard{
+   // border: solid 2px yellow;
+    height: auto;
+    flex-wrap: wrap; //propriedade do flex box para organizar os itens por espaço
+    gap: 20px;
+
+    article{
+        width: 230px;
+        height: 38vh;
+        p{
+            font-size: 14px;
+        }
+
+           }
+    }
+}
+@media(max-width: 487px){
+    .devoDoar{
+        height: 190vh;
+    }
+}
 
