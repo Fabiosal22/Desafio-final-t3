@@ -31,7 +31,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    //text-aling: center; poderia se estilizado aqui tambem ao invez da p no @media
 }
 
 @media(max-width: 1050px){
@@ -49,7 +49,8 @@ footer{
         flex-direction: column; //para deixar em coluna
         justify-content: space-evenly;
         }
-        .boxEnd{
+
+    .boxEnd{
             p{
                 text-align: center;
             }

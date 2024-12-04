@@ -2,7 +2,7 @@
 .post{
     background-image: url("../../assets/img/banner.png");
     background-repeat: no-repeat; //para a imagem nao ficar repetindo
-    background-size: cover; // ajusta a imagem para nao cortar como o cover ajusta com o centro da foto
+    background-size: cover; // contain ajusta a imagem para nao cortar como o cover ajusta com o centro da foto no centro do espaço podendo cortar as bordas 
     background-position: center;
     height:85vh; // mudar a altura
     display: flex;
@@ -42,14 +42,16 @@
 .boxCard{
 //border: solid 2px rgb(5, 248, 232);
 display: flex;
+width: 85vw;
 height: 60vh;
 align-items: center;
 justify-content: space-evenly;
-
+flex-wrap: wrap;
+gap: 10px;
 article{
    // border: solid 2px blue;
     width: 20%;
-    height: 80%;
+    height: 200px;    // height: 80%;
     background-color:#0157944D;
     display: flex;
     flex-direction: column;
@@ -125,4 +127,37 @@ article{
         height: 190vh;
     }
 }
+
+@media(max-width: 900px){
+  .boxCards{
+        height: 80vh;
+    }
+    .boxDoados{
+        height: 90vh;
+    }
+}
+
+
+
+
+// @media(max-width: 1100px){
+// .boxCard{
+//     article{
+//         width: 16vw;
+//         h3{
+//             font-size: 17px;
+//         }
+//         p{
+//             font-size: 14px;
+//         }
+//     }
+//   }
+// }
+
+
+
+
+
+
+
 

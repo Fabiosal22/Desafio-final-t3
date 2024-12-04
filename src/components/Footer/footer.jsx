@@ -21,7 +21,7 @@ return(
         </section>
 
         <section className={S.boxEnd}>
-            <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024  </p>
+            <p>Layout desenvolvido pela Vai Na Web para fins educativos - 2024.</p>
         </section>
     </footer>
 )

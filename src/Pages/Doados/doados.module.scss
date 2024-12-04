@@ -1,19 +1,21 @@
 
 .boxDoados{
-    border: solid 2px red;
+   // border: solid 2px red;
     height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .boxBooks{
-    //border: solid 2px greenyellow;
+   
     width: 85vw;
     height: 60vh;
-
+    display: flex;
+    justify-content: space-evenly;
     // display: flex;
     // justify-content: space-evenly; caso adicione mais livros
 
@@ -30,6 +32,31 @@
     
     }
 }
+@media(max-width: 1000px){
+    .boxDoados{
+        //border: solid 2px red;
+        }
+    }
 
+    .boxBooks{
+       // border: solid 2px rgb(248, 131, 7);
+        article{
+            width: 200px;
+            height: 230px;
+    }
+   }
+@media(max-width: 520px){
+.boxBooks{
+    flex-wrap: wrap; // ajustar automatico
+    gap: 10px; // distancia o tamanho colocado para os cards nao colarem
+    height: auto;
+     }
+     .boxDoados{
+        height: auto;
+        padding-bottom: 20px;
 
+     }
+}
+
+   
 
