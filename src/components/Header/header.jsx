@@ -2,8 +2,8 @@ import Logo2 from "../../assets/img/Logo2.png"
 import lupa from "../../assets/img/lupa.png"
 import {BrowserRouter, Routes, Route, Link } from "react-router-dom"
 import Inicio from "../../Pages/Inicio/Inicio"
-import Doados from"../../Pages/Doados/Doados"
-import QueroDoar from"../../Pages/QueroDoar/QueroDoar"
+import Doados from "../../Pages/Doados/Doados"
+import QueroDoar from "../../Pages/QueroDoar/QueroDoar"
 import S from './header.module.scss'    //quando esta na mesma pasta so chamar o aquivo
 
 
